@@ -1,5 +1,7 @@
 surf - simple webkit-based browser
 ==================================
+![surf screenshot](https://github.com/alisanoelia/surf/raw/main/screenshots/surf.png)
+
 surf is a simple Web browser based on WebKit/GTK+.
 
 Requirements
