@@ -1,8 +1,8 @@
-## surf - simple webkit-based browser
+# surf - simple webkit-based browser
 ==================================
 ![surf screenshot](https://github.com/alisanoelia/surf/raw/main/screenshots/surf.png)
 
-# surf is a simple Web browser based on WebKit/GTK+.
+surf is a simple Web browser based on WebKit/GTK+.
 
 ## Requirements
 ------------
@@ -20,16 +20,13 @@ necessary as root):
 
     make clean install
 
-Running surf
 ------------
-# run
+## run
     surf
 
-view homepage
+View homepage
 
-See the manpage for further options.
-
-Running surf in tabbed
+## Running surf in tabbed
 ----------------------
 For running surf in tabbed[1] there is a script included in the distribution,
 which is run like this:
@@ -40,17 +37,17 @@ Further invocations of the script will run surf with the specified URI in this
 instance of tabbed.
 
 - [0] http://tools.suckless.org/dmenu
--  [1] http://tools.suckless.org/tabbed
+- [1] http://tools.suckless.org/tabbed
 
-# Version
+## Version
 -------
 2.1
 
-# Download
+## Download
 --------
 aria2
 
-# Patches
+## Patches
 -------
 - surf-bookmarks-20170722-723ff26.diff
 - surf-modal-20190209-d068a38.diff
@@ -59,4 +56,3 @@ aria2
 - surf-startgo-20200913-d068a38.diff
 - surf-git-20170323-webkit2-searchengines.diff
 - surf-2.0-homepage.diff
-
