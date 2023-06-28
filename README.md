@@ -1,16 +1,16 @@
-surf - simple webkit-based browser
+## surf - simple webkit-based browser
 ==================================
 ![surf screenshot](https://github.com/alisanoelia/surf/raw/main/screenshots/surf.png)
 
-surf is a simple Web browser based on WebKit/GTK+.
+# surf is a simple Web browser based on WebKit/GTK+.
 
-Requirements
+## Requirements
 ------------
 In order to build surf you need GTK+ and Webkit/GTK+ header files.
 
 In order to use the functionality of the url-bar, also install dmenu[0].
 
-Installation
+## Installation
 ------------
 Edit config.mk to match your local setup (surf is installed into
 the /usr/local namespace by default).
@@ -22,8 +22,8 @@ necessary as root):
 
 Running surf
 ------------
-run
-  surf
+# run
+    surf
 
 view homepage
 
@@ -39,24 +39,24 @@ which is run like this:
 Further invocations of the script will run surf with the specified URI in this
 instance of tabbed.
 
-[0] http://tools.suckless.org/dmenu
-[1] http://tools.suckless.org/tabbed
+- [0] http://tools.suckless.org/dmenu
+-  [1] http://tools.suckless.org/tabbed
 
-Version
+# Version
 -------
 2.1
 
-Download
+# Download
 --------
 aria2
 
-Patches
+# Patches
 -------
-surf-bookmarks-20170722-723ff26.diff
-surf-modal-20190209-d068a38.diff
-surf-clipboard-20200112-a6a8878.diff
-surf-quithotkey-20210830-11dca18.diff
-surf-startgo-20200913-d068a38.diff
-surf-git-20170323-webkit2-searchengines.diff
-surf-2.0-homepage.diff
+- surf-bookmarks-20170722-723ff26.diff
+- surf-modal-20190209-d068a38.diff
+- surf-clipboard-20200112-a6a8878.diff
+- surf-quithotkey-20210830-11dca18.diff
+- surf-startgo-20200913-d068a38.diff
+- surf-git-20170323-webkit2-searchengines.diff
+- surf-2.0-homepage.diff
 
