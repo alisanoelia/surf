@@ -21,7 +21,9 @@ necessary as root):
 Running surf
 ------------
 run
-    surf [URI]
+  surf
+
+view homepage
 
 See the manpage for further options.
 
@@ -54,7 +56,5 @@ surf-clipboard-20200112-a6a8878.diff
 surf-quithotkey-20210830-11dca18.diff
 surf-startgo-20200913-d068a38.diff
 surf-git-20170323-webkit2-searchengines.diff
+surf-2.0-homepage.diff
 
-Last implemented commit
------------------------
-2022-10-16 15:39	webext: Exchange fd over webkit messages	Quentin Rameau
